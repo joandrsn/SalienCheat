@@ -38,7 +38,7 @@ else
 
 if( strlen( $Token ) !== 32 )
 {
-	Msg( 'Failed to find your token. Verify token.txt' );
+	Msg( 'Failed to find your token. Verify token.txt exists in the current folder.' )
 	exit( 1 );
 }
 
